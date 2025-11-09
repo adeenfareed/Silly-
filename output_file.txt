@@ -1,0 +1,148 @@
+Line 1: Type: word (string)
+Line 1: Identifier: title
+Line 1: Operator: =
+Line 1: Word: "Silly++ Conditional Logic Demo"
+Line 1: Delimeters: ;
+Line 1: Keyword: hey
+Line 1: Keyword: ask
+Line 1: Word: "what is your name?"
+Line 1: Keyword: tell
+Line 1: Word: "My name is Adeen"
+Line 1: Identifier: @sum
+Line 1: Operator: =
+Line 1: Whole: 0
+Line 1: Delimeters: ;
+Line 1: Keyword: loop
+Line 1: Left Parenthesis: (
+Line 1: Identifier: i
+Line 1: Operator: =
+Line 1: Whole: 0
+Line 1: Delimeters: ;
+Line 1: Identifier: i
+Line 1: Relational OP: <
+Line 1: Whole: 5
+Line 1: Delimeters: ;
+Line 1: Identifier: i
+Line 1: Operator: ++
+Line 1: Right Parenthesis: )
+Line 1: Identifier: @sum
+Line 1: Operator: =
+Line 1: Identifier: @sum
+Line 1: Whole: +1
+Line 1: Delimeters: ;
+Line 1: Keyword: bye|done
+Line 1: Type: whole (int)
+Line 1: Identifier: num
+Line 1: Operator: =
+Line 1: Whole: -3
+Line 1: Delimeters: ;
+Line 1: Type: pointy (float)
+Line 1: Identifier: temperature
+Line 1: Operator: =
+Line 1: Pointy: 23.5
+Line 1: Delimeters: ;
+Line 1: Keyword: if
+Line 1: Left Parenthesis: (
+Line 1: Identifier: num
+Line 1: Relational OP: >
+Line 1: Whole: 0
+Line 1: Right Parenthesis: )
+Line 1: Keyword: then
+Line 1: Word: "The number is positive"
+Line 1: Delimeters: ;
+Line 1: Keyword: otherwise
+Line 1: Word: "The number is negative"
+Line 1: Delimeters: ;
+Line 1: Keyword: ask
+Line 1: Word: "Your age?"
+Line 1: output arrow: ->
+Line 1: Whole: 21
+Line 1: Delimeters: ;
+Line 1: Type: word (string)
+Line 1: Invalid Token: 7abc
+Line 1: Delimeters: ;
+Line 1: Keyword: if
+Line 1: Left Parenthesis: (
+Line 1: Identifier: num
+Line 1: Relational OP: <
+Line 1: Whole: 0
+Line 1: And Operator: &&&
+Line 1: Identifier: temperature
+Line 1: Relational OP: <
+Line 1: Whole: 0
+Line 1: Right Parenthesis: )
+Line 1: Delimeters: ;
+Line 1: Word: "Both the number and temperature are negative"
+Line 1: Delimeters: ;
+Line 1: Keyword: then
+Line 1: Left Parenthesis: (
+Line 1: Identifier: num
+Line 1: Relational OP: >
+Line 1: Whole: 0
+Line 1: OR Operator: ||
+Line 1: Identifier: temperature
+Line 1: Relational OP: >
+Line 1: Whole: 0
+Line 1: Right Parenthesis: )
+Line 1: Delimeters: ;
+Line 1: Word: "At least one of the number or temperature is positive"
+Line 1: Delimeters: ;
+Line 1: Keyword: otherwise
+Line 1: Word: "Neither the number nor the temperature is positive"
+Line 1: output arrow: ->
+Line 1: Word: " "
+Line 1: Delimeters: ;
+Line 1: Type: whole (int)
+Line 1: Identifier: n
+Line 1: Operator: =
+Line 1: Whole: 5
+Line 1: Delimeters: ;
+Line 1: Type: whole (int)
+Line 1: Identifier: result
+Line 1: Operator: =
+Line 1: Whole: 1
+Line 1: Delimeters: ;
+Line 1: Type: whole (int)
+Line 1: Identifier: i
+Line 1: Operator: =
+Line 1: Whole: 1
+Line 1: Delimeters: ;
+Line 1: Keyword: tell
+Unknown: "
+Line 1: Identifier: Starting
+Line 1: Identifier: factorial
+Line 1: Identifier: calculation
+Line 1: Identifier: for
+Line 1: Identifier: n
+Line 1: Delimeters: ;
+Line 1: Identifier: n
+Line 1: Operator: =
+Line 1: Whole: 5
+Line 1: Delimeters: ;
+Line 1: Keyword: loop
+Line 1: Left Parenthesis: (
+Line 1: Identifier: i
+Line 1: Relational OP: <=
+Line 1: Identifier: n
+Line 1: Right Parenthesis: )
+Line 1: Delimeters: ;
+Line 1: Identifier: result
+Line 1: Operator: =
+Line 1: Identifier: result
+Line 1: Operator: *
+Line 1: Identifier: i
+Line 1: Delimeters: ;
+Line 1: Identifier: i
+Line 1: Operator: =
+Line 1: Identifier: i
+Line 1: Operator: +
+Line 1: Whole: 1
+Line 1: Delimeters: ;
+Line 1: Keyword: tell
+Line 1: Word: "Factorial result"
+Line 1: output arrow: ->
+Line 1: Identifier: result
+Line 1: Delimeters: ;
+Line 1: Keyword: bye|done
+ Tokens written to output_file.txt
+
