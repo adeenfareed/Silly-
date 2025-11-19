@@ -1,0 +1,170 @@
+Line 1: Keyword: hey
+Line 2: Type: whole (int)
+Line 2: Identifier: num
+Line 2: Operator: =
+Line 2: Whole: -3
+Line 2: Delimeters: ;
+Line 3: Type: pointy (float)
+Line 3: Identifier: temperature
+Line 3: Operator: =
+Line 3: Pointy: 23.5
+Line 3: Delimeters: ;
+Line 5: Keyword: if
+Line 5: Left Parenthesis: (
+Line 5: Identifier: num
+Line 5: Relational OP: >
+Line 5: Whole: 0
+Line 5: Right Parenthesis: )
+Line 5: Keyword: then
+Line 6: Word: "The number is positive"
+Line 6: Delimeters: ;
+Line 7: Keyword: otherwise
+Line 8: Word: "The number is negative"
+Line 8: Delimeters: ;
+Line 10: Keyword: bye|done
+Line 13: Type: word (string)
+Line 13: Identifier: title
+Line 13: Operator: =
+Line 13: Word: "Silly++ Conditional Logic Demo"
+Line 13: Delimeters: ;
+Line 15: Keyword: hey
+Line 16: Keyword: ask
+Line 16: Word: "what is your name?"
+Line 17: Keyword: tell
+Line 17: Word: "My name is Adeen"
+Line 19: Identifier: @sum
+Line 19: Operator: =
+Line 19: Whole: 0
+Line 19: Delimeters: ;
+Line 20: Keyword: loop
+Line 20: Left Parenthesis: (
+Line 20: Identifier: i
+Line 20: Operator: =
+Line 20: Whole: 0
+Line 20: Delimeters: ;
+Line 20: Identifier: i
+Line 20: Relational OP: <
+Line 20: Whole: 5
+Line 20: Delimeters: ;
+Line 20: Identifier: i
+Line 20: Operator: ++
+Line 20: Right Parenthesis: )
+Line 21: Identifier: @sum
+Line 21: Operator: =
+Line 21: Identifier: @sum
+Line 21: Whole: +1
+Line 21: Delimeters: ;
+Line 22: Keyword: bye|done
+Line 24: Type: whole (int)
+Line 24: Identifier: num
+Line 24: Operator: =
+Line 24: Whole: -3
+Line 24: Delimeters: ;
+Line 25: Type: pointy (float)
+Line 25: Identifier: temperature
+Line 25: Operator: =
+Line 25: Pointy: 23.5
+Line 25: Delimeters: ;
+Line 27: Keyword: if
+Line 27: Left Parenthesis: (
+Line 27: Identifier: num
+Line 27: Relational OP: >
+Line 27: Whole: 0
+Line 27: Right Parenthesis: )
+Line 27: Keyword: then
+Line 28: Word: "The number is positive"
+Line 28: Delimeters: ;
+Line 29: Keyword: otherwise
+Line 30: Word: "The number is negative"
+Line 30: Delimeters: ;
+Line 32: Keyword: ask
+Line 32: Word: "Your age?"
+Line 32: output arrow: ->
+Line 32: Whole: 21
+Line 32: Delimeters: ;
+Line 33: Type: word (string)
+Line 33: Invalid Token: 7abc
+Line 33: Delimeters: ;
+Line 37: Keyword: if
+Line 37: Left Parenthesis: (
+Line 37: Identifier: num
+Line 37: Relational OP: <
+Line 37: Whole: 0
+Line 37: And Operator: &&&
+Line 37: Identifier: temperature
+Line 37: Relational OP: <
+Line 37: Whole: 0
+Line 37: Right Parenthesis: )
+Line 37: Delimeters: ;
+Line 38: Word: "Both the number and temperature are negative"
+Line 38: Delimeters: ;
+Line 39: Keyword: then
+Line 39: Left Parenthesis: (
+Line 39: Identifier: num
+Line 39: Relational OP: >
+Line 39: Whole: 0
+Line 39: OR Operator: ||
+Line 39: Identifier: temperature
+Line 39: Relational OP: >
+Line 39: Whole: 0
+Line 39: Right Parenthesis: )
+Line 39: Delimeters: ;
+Line 40: Word: "At least one of the number or temperature is positive"
+Line 40: Delimeters: ;
+Line 41: Keyword: otherwise
+Line 42: Word: "Neither the number nor the temperature is positive"
+Line 42: output arrow: ->
+Line 42: Word: " "
+Line 42: Delimeters: ;
+Line 44: Type: whole (int)
+Line 44: Identifier: n
+Line 44: Operator: =
+Line 44: Whole: 5
+Line 44: Delimeters: ;
+Line 45: Type: whole (int)
+Line 45: Identifier: result
+Line 45: Operator: =
+Line 45: Whole: 1
+Line 45: Delimeters: ;
+Line 46: Type: whole (int)
+Line 46: Identifier: i
+Line 46: Operator: =
+Line 46: Whole: 1
+Line 46: Delimeters: ;
+Line 48: Keyword: tell
+Unknown: "
+Line 48: Identifier: Starting
+Line 48: Identifier: factorial
+Line 48: Identifier: calculation
+Line 48: Identifier: for
+Line 48: Identifier: n
+Line 48: Delimeters: ;
+Line 49: Identifier: n
+Line 49: Operator: =
+Line 49: Whole: 5
+Line 49: Delimeters: ;
+Line 51: Keyword: loop
+Line 51: Left Parenthesis: (
+Line 51: Identifier: i
+Line 51: Relational OP: <=
+Line 51: Identifier: n
+Line 51: Right Parenthesis: )
+Line 51: Delimeters: ;
+Line 52: Identifier: result
+Line 52: Operator: =
+Line 52: Identifier: result
+Line 52: Operator: *
+Line 52: Identifier: i
+Line 52: Delimeters: ;
+Line 53: Identifier: i
+Line 53: Operator: =
+Line 53: Identifier: i
+Line 53: Operator: +
+Line 53: Whole: 1
+Line 53: Delimeters: ;
+Line 54: Keyword: tell
+Line 54: Word: "Factorial result"
+Line 54: output arrow: ->
+Line 54: Identifier: result
+Line 54: Delimeters: ;
+Line 56: Keyword: bye|done
